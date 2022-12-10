@@ -6,7 +6,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import {bolttechTheme} from "@edirect/frontend-foundations";
-import { registerComponents } from "./components";
+import { registerComponents } from "../src/components";
 const BolttechThemeProvider = dynamic(() => import('@edirect/frontend-foundations/dist/style/BolttechThemeProvider'), { ssr: false });
 
 // Replace with your Public API Key
